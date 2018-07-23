@@ -1,5 +1,5 @@
-JavaFX Table Demo
-=================
+JavaFX Table Edit Cell Demo
+===========================
 
-Show a table with data.
+How to edit the cells of a table in-place.
 
