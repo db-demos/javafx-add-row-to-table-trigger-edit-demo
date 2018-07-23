@@ -4,12 +4,16 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
 public class Person {
-    private final SimpleStringProperty name;
-    private final SimpleIntegerProperty number;
+    private final SimpleStringProperty name = new SimpleStringProperty();
+    private final SimpleIntegerProperty number = new SimpleIntegerProperty();
 
     Person(String name, Integer number) {
-        this.name = new SimpleStringProperty(name);
-        this.number = new SimpleIntegerProperty(number);
+        setName(name);
+        setNumber(number);
+    }
+
+    Person() {
+        
     }
 
     public String getName() {

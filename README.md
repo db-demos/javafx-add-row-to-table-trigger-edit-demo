@@ -1,5 +1,5 @@
-JavaFX Table Edit Cell Demo
-===========================
+JavaFX Table Add New Row Demo
+=============================
 
-How to edit the cells of a table in-place.
+How to add a new row to the table, and trigger it to edit mode.
 
